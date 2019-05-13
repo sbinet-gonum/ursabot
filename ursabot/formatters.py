@@ -7,6 +7,8 @@ from tabulate import tabulate
 from twisted.python import log
 from buildbot.process.results import Results
 
+import pandas  # noqa
+
 
 class Formatter:
 
